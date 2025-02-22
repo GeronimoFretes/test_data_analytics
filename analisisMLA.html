@@ -1,45 +1,465 @@
-<div class='tableauPlaceholder' id='viz1740198614566' style='position: relative'>
-    <noscript>
-        <a href='#'>
-            <img
-                alt='DashboardComportamientoTipoVendedor '
-                src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Ge&#47;GeronimoFretes-Test_Analytics-ComportamientoanteTipoVendedor&#47;DashboardComportamientoTipoVendedor&#47;1_rss.png'
-                style='border: none' />
-            </a>
-        </noscript>
-    <object class='tableauViz' style='display:none;'>
-        <param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' />
-        <param name='embed_code_version' value='3' />
-        <param name='site_root' value='' />
-        <param name='name'
-            value='GeronimoFretes-Test_Analytics-ComportamientoanteTipoVendedor&#47;DashboardComportamientoTipoVendedor' />
-        <param name='tabs' value='no' />
-        <param name='toolbar' value='no' />
-        <param name='static_image'
-            value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Ge&#47;GeronimoFretes-Test_Analytics-ComportamientoanteTipoVendedor&#47;DashboardComportamientoTipoVendedor&#47;1.png' />
-        <param name='animate_transition' value='yes' />
-        <param name='display_static_image' value='yes' />
-        <param name='display_spinner' value='yes' />
-        <param name='display_overlay' value='yes' />
-        <param name='display_count' value='yes' />
-        <param name='language' value='en-US' />
-    </object>
-</div>
-<script type='text/javascript'>
-    var divElement = document.getElementById('viz1740198614566');
-    var vizElement = divElement.getElementsByTagName('object')[0];
-    if (divElement.offsetWidth > 800) {
-        vizElement.style.width = '100%';
-        vizElement.style.height = (divElement.offsetWidth * 0.75) + 'px';
-    } else if (divElement.offsetWidth > 500) {
-        vizElement.style.width = '100%';
-        vizElement.style.height = (divElement.offsetWidth * 0.75) + 'px';
-    }
-    else {
-        vizElement.style.width = '100%';
-        vizElement.style.height = '1027px';
-    }
-    var scriptElement = document.createElement('script');
-    scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';
-    vizElement.parentNode.insertBefore(scriptElement, vizElement);                
-</script>
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600&display=swap" rel="stylesheet" />
+    <style>
+        /* Global Styles */
+        body {
+            font-family: 'Montserrat', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #fff;
+            color: #333;
+            line-height: 1.6;
+        }
+
+        header {
+            text-align: center;
+            padding: 2rem 1rem;
+            background-color: #fff;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+            margin-bottom: 2rem;
+        }
+
+        header h1 {
+            margin: 0;
+            font-size: 2.5rem;
+            font-weight: 600;
+        }
+
+        header p {
+            margin: 0.5rem 0 0;
+            font-size: 1.2rem;
+            color: #666;
+        }
+
+        .container {
+            width: 90%;
+            max-height: 60%;
+            margin: 0 auto;
+            padding-bottom: 2rem;
+        }
+
+        section {
+            margin-bottom: 3rem;
+        }
+
+        section h2 {
+            font-size: 1.8rem;
+            margin-bottom: 1rem;
+            text-align: center;
+        }
+
+        .viz-container {
+            width: 100%;
+            height: 800px;
+            background-color: #fff;
+        }
+
+        .interpretation {
+            margin-top: 1rem;
+            font-size: 1rem;
+            color: #555;
+            text-align: left;
+        }
+
+        footer {
+            text-align: center;
+            padding: 1rem 0;
+            font-size: 0.9rem;
+            color: #777;
+            background-color: #fff;
+            box-shadow: 0 -2px 4px rgba(0, 0, 0, 0.05);
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <h1>TEST - Data Analytics </h1>
+        <p>E-commerce Performance - Cliente</p>
+    </header>
+    <div class="container">
+        <section id="dashboard1">
+            <div class='tableauPlaceholder' id='viz1740211612374' style='position: relative'>
+                <noscript>
+                    <a href='#'>
+                        <img alt='DashboardBarChartProductos'
+                            src='https://public.tableau.com/static/images/Ge/GeronimoFretes-Test_Analytics-ProductosmsPopulares/DashboardBarChartProductos/1_rss.png'
+                            style='border: none' />
+                    </a>
+                </noscript>
+
+                <object class='tableauViz' style='display:none;'>
+                    <param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' />
+                    <param name='embed_code_version' value='3' />
+                    <param name='site_root' value='' />
+                    <param name='name'
+                        value='GeronimoFretes-Test_Analytics-ProductosmsPopulares&#47;DashboardBarChartProductos' />
+                    <param name='tabs' value='no' />
+                    <param name='toolbar' value='yes' />
+                    <param name='static_image'
+                        value='https://public.tableau.com/static/images/Ge/GeronimoFretes-Test_Analytics-ProductosmsPopulares/DashboardBarChartProductos/1.png' />
+                    <param name='animate_transition' value='yes' />
+                    <param name='display_static_image' value='yes' />
+                    <param name='display_spinner' value='yes' />
+                    <param name='display_overlay' value='yes' />
+                    <param name='display_count' value='yes' />
+                    <param name='language' value='en-US' />
+                </object>
+            </div>
+
+            <script type='text/javascript'>
+                var divElement = document.getElementById('viz1740211612374');
+                var vizElement = divElement.getElementsByTagName('object')[0];
+
+                if (divElement.offsetWidth > 800) {
+                    vizElement.style.width = '100%';
+                    vizElement.style.height = (divElement.offsetWidth * 0.5) + 'px';
+                } else if (divElement.offsetWidth > 500) {
+                    vizElement.style.width = '100%';
+                    vizElement.style.height = (divElement.offsetWidth * 0.5) + 'px';
+                } else {
+                    vizElement.style.width = '100%';
+                    vizElement.style.height = '827px';
+                }
+
+                var scriptElement = document.createElement('script');
+                scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';
+                vizElement.parentNode.insertBefore(scriptElement, vizElement);
+            </script>
+            <div class="interpretation">
+                <p>
+                    Interpretación: Aquí se muestra un índice de dominancia (rango –1 a 1) ponderado por las ventas,
+                    donde 1 indica que todas las ventas provienen de Tienda Oficial, y –1, de Independiente. Este patrón
+                    es útil para predecir ventas futuras al identificar tendencias en la preferencia de los clientes.
+                </p>
+            </div>
+        </section>
+        <section id="dashboard2">
+            <div class='tableauPlaceholder' id='viz1740212208149' style='position: relative'>
+                <noscript>
+                    <a href='#'>
+                        <img alt='DashboardBarChartMarcas (2)'
+                            src='https://public.tableau.com/static/images/Ge/GeronimoFretes-Test_Analytics-MarcasmsPopulares/DashboardBarChartMarcas2/1_rss.png'
+                            style='border: none' />
+                    </a>
+                </noscript>
+
+                <object class='tableauViz' style='display:none;'>
+                    <param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' />
+                    <param name='embed_code_version' value='3' />
+                    <param name='site_root' value='' />
+                    <param name='name'
+                        value='GeronimoFretes-Test_Analytics-MarcasmsPopulares&#47;DashboardBarChartMarcas2' />
+                    <param name='tabs' value='no' />
+                    <param name='toolbar' value='yes' />
+                    <param name='static_image'
+                        value='https://public.tableau.com/static/images/Ge/GeronimoFretes-Test_Analytics-MarcasmsPopulares/DashboardBarChartMarcas2/1.png' />
+                    <param name='animate_transition' value='yes' />
+                    <param name='display_static_image' value='yes' />
+                    <param name='display_spinner' value='yes' />
+                    <param name='display_overlay' value='yes' />
+                    <param name='display_count' value='yes' />
+                    <param name='language' value='en-US' />
+                </object>
+            </div>
+
+            <script type='text/javascript'>
+                const divElement = document.getElementById('viz1740212208149');
+                const vizElement = divElement.getElementsByTagName('object')[0];
+
+                if (divElement.offsetWidth > 800 || divElement.offsetWidth > 500) {
+                    vizElement.style.width = '100%';
+                    vizElement.style.height = (divElement.offsetWidth * 0.5) + 'px';
+                } else {
+                    vizElement.style.width = '100%';
+                    vizElement.style.height = '727px';
+                }
+
+                const scriptElement = document.createElement('script');
+                scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';
+                vizElement.parentNode.insertBefore(scriptElement, vizElement);
+            </script>
+            <div class="interpretation">
+                <p>
+                    Interpretación: Este dashboard evidencia cómo varía el comportamiento de compra según el tipo de
+                    vendedor. Se aprecia que, para ciertos productos, las ventas son mayores a través de tiendas
+                    oficiales, mientras que en otros predominan los vendedores independientes.
+                </p>
+            </div>
+        </section>
+        <section id="dashboard3">
+            <div class='tableauPlaceholder' id='viz1740212814945' style='position: relative'>
+                <noscript>
+                    <a href='#'>
+                        <img alt='DashboardBumpChartMarcas'
+                            src='https://public.tableau.com/static/images/Ge/GeronimoFretes-Test_Analytics-EvolucindelasMarcasmsPopulares/DashboardBumpChartMarcas/1_rss.png'
+                            style='border: none' />
+                    </a>
+                </noscript>
+
+                <object class='tableauViz' style='display:none;'>
+                    <param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' />
+                    <param name='embed_code_version' value='3' />
+                    <param name='site_root' value='' />
+                    <param name='name'
+                        value='GeronimoFretes-Test_Analytics-EvolucindelasMarcasmsPopulares&#47;DashboardBumpChartMarcas' />
+                    <param name='tabs' value='no' />
+                    <param name='toolbar' value='yes' />
+                    <param name='static_image'
+                        value='https://public.tableau.com/static/images/Ge/GeronimoFretes-Test_Analytics-EvolucindelasMarcasmsPopulares/DashboardBumpChartMarcas/1.png' />
+                    <param name='animate_transition' value='yes' />
+                    <param name='display_static_image' value='yes' />
+                    <param name='display_spinner' value='yes' />
+                    <param name='display_overlay' value='yes' />
+                    <param name='display_count' value='yes' />
+                    <param name='language' value='en-US' />
+                </object>
+            </div>
+
+            <script type='text/javascript'>
+                const divElement = document.getElementById('viz1740212814945');
+                const vizElement = divElement.getElementsByTagName('object')[0];
+
+                if (divElement.offsetWidth > 800 || divElement.offsetWidth > 500) {
+                    vizElement.style.width = '100%';
+                    vizElement.style.height = (divElement.offsetWidth * 0.5) + 'px';
+                } else {
+                    vizElement.style.width = '100%';
+                    vizElement.style.height = '727px';
+                }
+
+                const scriptElement = document.createElement('script');
+                scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';
+                vizElement.parentNode.insertBefore(scriptElement, vizElement);
+            </script>
+            <div class="interpretation">
+                <p>
+                    Interpretación: Aquí se muestra un índice de dominancia (rango –1 a 1) ponderado por las ventas,
+                    donde 1 indica que todas las ventas provienen de Tienda Oficial, y –1, de Independiente. Este patrón
+                    es útil para predecir ventas futuras al identificar tendencias en la preferencia de los clientes.
+                </p>
+            </div>
+        </section>
+        <section id="dashboard4">
+            <div class='tableauPlaceholder' id='viz1740213299178' style='position: relative'>
+                <noscript>
+                    <a href='#'>
+                        <img alt='DashboarsUnidadesCategoria'
+                            src='https://public.tableau.com/static/images/Ge/GeronimoFretes-Test_Analytics-EstacionalidadenlasVentas/DashboarsUnidadesCategoria/1_rss.png'
+                            style='border: none' />
+                    </a>
+                </noscript>
+
+                <object class='tableauViz' style='display:none;'>
+                    <param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' />
+                    <param name='embed_code_version' value='3' />
+                    <param name='site_root' value='' />
+                    <param name='name'
+                        value='GeronimoFretes-Test_Analytics-EstacionalidadenlasVentas&#47;DashboarsUnidadesCategoria' />
+                    <param name='tabs' value='no' />
+                    <param name='toolbar' value='yes' />
+                    <param name='static_image'
+                        value='https://public.tableau.com/static/images/Ge/GeronimoFretes-Test_Analytics-EstacionalidadenlasVentas/DashboarsUnidadesCategoria/1.png' />
+                    <param name='animate_transition' value='yes' />
+                    <param name='display_static_image' value='yes' />
+                    <param name='display_spinner' value='yes' />
+                    <param name='display_overlay' value='yes' />
+                    <param name='display_count' value='yes' />
+                    <param name='language' value='en-US' />
+                </object>
+            </div>
+
+            <script type='text/javascript'>
+                const divElement = document.getElementById('viz1740213299178');
+                const vizElement = divElement.getElementsByTagName('object')[0];
+
+                if (divElement.offsetWidth > 800 || divElement.offsetWidth > 500) {
+                    vizElement.style.width = '100%';
+                    vizElement.style.height = (divElement.offsetWidth * 0.5) + 'px';
+                } else {
+                    vizElement.style.width = '100%';
+                    vizElement.style.height = '727px';
+                }
+
+                const scriptElement = document.createElement('script');
+                scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';
+                vizElement.parentNode.insertBefore(scriptElement, vizElement);
+            </script>
+            <div class="interpretation">
+                <p>
+                    Interpretación: Aquí se muestra un índice de dominancia (rango –1 a 1) ponderado por las ventas,
+                    donde 1 indica que todas las ventas provienen de Tienda Oficial, y –1, de Independiente. Este patrón
+                    es útil para predecir ventas futuras al identificar tendencias en la preferencia de los clientes.
+                </p>
+            </div>
+        </section>
+        <section id="dashboard5">
+            <div class='tableauPlaceholder' id='viz1740213397111' style='position: relative'>
+                <noscript>
+                    <a href='#'>
+                        <img alt='DashboardInflacion'
+                            src='https://public.tableau.com/static/images/Ge/GeronimoFretes-Test_Analytics-InflacinvsPrecios/DashboardInflacion/1_rss.png'
+                            style='border: none' />
+                    </a>
+                </noscript>
+
+                <object class='tableauViz' style='display:none;'>
+                    <param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' />
+                    <param name='embed_code_version' value='3' />
+                    <param name='site_root' value='' />
+                    <param name='name' value='GeronimoFretes-Test_Analytics-InflacinvsPrecios&#47;DashboardInflacion' />
+                    <param name='tabs' value='no' />
+                    <param name='toolbar' value='yes' />
+                    <param name='static_image'
+                        value='https://public.tableau.com/static/images/Ge/GeronimoFretes-Test_Analytics-InflacinvsPrecios/DashboardInflacion/1.png' />
+                    <param name='animate_transition' value='yes' />
+                    <param name='display_static_image' value='yes' />
+                    <param name='display_spinner' value='yes' />
+                    <param name='display_overlay' value='yes' />
+                    <param name='display_count' value='yes' />
+                    <param name='language' value='en-US' />
+                </object>
+            </div>
+
+            <script type='text/javascript'>
+                const divElement = document.getElementById('viz1740213397111');
+                const vizElement = divElement.getElementsByTagName('object')[0];
+
+                if (divElement.offsetWidth > 800 || divElement.offsetWidth > 500) {
+                    vizElement.style.width = '100%';
+                    vizElement.style.height = (divElement.offsetWidth * 0.5) + 'px';
+                } else {
+                    vizElement.style.width = '100%';
+                    vizElement.style.height = '727px';
+                }
+
+                const scriptElement = document.createElement('script');
+                scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';
+                vizElement.parentNode.insertBefore(scriptElement, vizElement);
+            </script>
+            <div class="interpretation">
+                <p>
+                    Interpretación: Aquí se muestra un índice de dominancia (rango –1 a 1) ponderado por las ventas,
+                    donde 1 indica que todas las ventas provienen de Tienda Oficial, y –1, de Independiente. Este patrón
+                    es útil para predecir ventas futuras al identificar tendencias en la preferencia de los clientes.
+                </p>
+            </div>
+        </section>
+        <section id="dashboard6">
+            <div class='tableauPlaceholder' id='viz1740213478976' style='position: relative'>
+                <noscript>
+                    <a href='#'>
+                        <img alt='DashboardComportamientoTipoVendedor'
+                            src='https://public.tableau.com/static/images/Ge/GeronimoFretes-Test_Analytics-ComportamientoanteTipoVendedor/DashboardComportamientoTipoVendedor/1_rss.png'
+                            style='border: none' />
+                    </a>
+                </noscript>
+
+                <object class='tableauViz' style='display:none;'>
+                    <param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' />
+                    <param name='embed_code_version' value='3' />
+                    <param name='site_root' value='' />
+                    <param name='name'
+                        value='GeronimoFretes-Test_Analytics-ComportamientoanteTipoVendedor&#47;DashboardComportamientoTipoVendedor' />
+                    <param name='tabs' value='no' />
+                    <param name='toolbar' value='yes' />
+                    <param name='static_image'
+                        value='https://public.tableau.com/static/images/Ge/GeronimoFretes-Test_Analytics-ComportamientoanteTipoVendedor/DashboardComportamientoTipoVendedor/1.png' />
+                    <param name='animate_transition' value='yes' />
+                    <param name='display_static_image' value='yes' />
+                    <param name='display_spinner' value='yes' />
+                    <param name='display_overlay' value='yes' />
+                    <param name='display_count' value='yes' />
+                    <param name='language' value='en-US' />
+                </object>
+            </div>
+
+            <script type='text/javascript'>
+                const divElement = document.getElementById('viz1740213478976');
+                const vizElement = divElement.getElementsByTagName('object')[0];
+
+                if (divElement.offsetWidth > 800 || divElement.offsetWidth > 500) {
+                    vizElement.style.width = '100%';
+                    vizElement.style.height = (divElement.offsetWidth * 0.5) + 'px';
+                } else {
+                    vizElement.style.width = '100%';
+                    vizElement.style.height = '1027px';
+                }
+
+                const scriptElement = document.createElement('script');
+                scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';
+                vizElement.parentNode.insertBefore(scriptElement, vizElement);
+            </script>
+            <div class="interpretation">
+                <p>
+                    Interpretación: Aquí se muestra un índice de dominancia (rango –1 a 1) ponderado por las ventas,
+                    donde 1 indica que todas las ventas provienen de Tienda Oficial, y –1, de Independiente. Este patrón
+                    es útil para predecir ventas futuras al identificar tendencias en la preferencia de los clientes.
+                </p>
+            </div>
+        </section>
+        <section id="dashboard7">
+            <div class='tableauPlaceholder' id='viz1740213554983' style='position: relative'>
+                <noscript>
+                    <a href='#'>
+                        <img
+                            alt='DashboardComportamientoOferta'
+                            src='https://public.tableau.com/static/images/Ge/GeronimoFretes-Test_Analytics-ComportamientoanteOferta/DashboardComportamientoOferta/1_rss.png'
+                            style='border: none'
+                        />
+                    </a>
+                </noscript>
+            
+                <object class='tableauViz' style='display:none;'>
+                    <param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' />
+                    <param name='embed_code_version' value='3' />
+                    <param name='site_root' value='' />
+                    <param name='name' value='GeronimoFretes-Test_Analytics-ComportamientoanteOferta&#47;DashboardComportamientoOferta' />
+                    <param name='tabs' value='no' />
+                    <param name='toolbar' value='yes' />
+                    <param name='static_image' value='https://public.tableau.com/static/images/Ge/GeronimoFretes-Test_Analytics-ComportamientoanteOferta/DashboardComportamientoOferta/1.png' />
+                    <param name='animate_transition' value='yes' />
+                    <param name='display_static_image' value='yes' />
+                    <param name='display_spinner' value='yes' />
+                    <param name='display_overlay' value='yes' />
+                    <param name='display_count' value='yes' />
+                    <param name='language' value='en-US' />
+                </object>
+            </div>
+            
+            <script type='text/javascript'>
+                const divElement = document.getElementById('viz1740213554983');
+                const vizElement = divElement.getElementsByTagName('object')[0];
+            
+                if (divElement.offsetWidth > 800 || divElement.offsetWidth > 500) {
+                    vizElement.style.width = '100%';
+                    vizElement.style.height = (divElement.offsetWidth * 0.5) + 'px';
+                } else {
+                    vizElement.style.width = '100%';
+                    vizElement.style.height = '727px';
+                }
+            
+                const scriptElement = document.createElement('script');
+                scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';
+                vizElement.parentNode.insertBefore(scriptElement, vizElement);
+            </script>
+            <div class="interpretation">
+                <p>
+                    Interpretación: Aquí se muestra un índice de dominancia (rango –1 a 1) ponderado por las ventas,
+                    donde 1 indica que todas las ventas provienen de Tienda Oficial, y –1, de Independiente. Este patrón
+                    es útil para predecir ventas futuras al identificar tendencias en la preferencia de los clientes.
+                </p>
+            </div>
+        </section>
+    </div>
+    <footer>
+        <p>Geronimo Fretes</p>
+    </footer>
+</body>
+
+</html>
