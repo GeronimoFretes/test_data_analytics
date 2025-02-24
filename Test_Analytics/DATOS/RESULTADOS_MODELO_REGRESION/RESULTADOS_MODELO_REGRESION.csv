@@ -1,15 +1,15 @@
 Factor,Impacto Esperado,Intervalo de Confianza,Significancia Estadística
-Ventas Base,150.33%,"(124.71%, 178.88%)",✅ Significativo
-Precio en dólares,-14.76%,"(-15.36%, -14.16%)",✅ Significativo
-Cantidad de palabras en el título,2.57%,"(2.18%, 2.97%)",✅ Significativo
-Cantidad de palabras en el título (al cuadrado),-0.36%,"(-0.47%, -0.24%)",✅ Significativo
-El título incluye medida en mililitros,10.58%,"(8.44%, 12.76%)",✅ Significativo
-Cantidad de palabras promocionales en el título,16.46%,"(12.22%, 20.85%)",✅ Significativo
-Cantidad de signos de exclamación en el título,-5.08%,"(-6.25%, -3.89%)",✅ Significativo
-Cantidad de símbolos en el título,6.09%,"(0.62%, 11.86%)",✅ Significativo
-El título incluye nombre de marca,7.75%,"(5.93%, 9.61%)",✅ Significativo
-Proporción de mayúsculas en el título,-57.47%,"(-65.39%, -47.75%)",✅ Significativo
-El producto está en oferta,33.73%,"(30.9%, 36.62%)",✅ Significativo
-El producto es nuevo,71.34%,"(55.3%, 89.04%)",✅ Significativo
-Tendencia Mensual,0.51%,"(0.2%, 0.81%)",✅ Significativo
-El vendedor es una tienda oficial,50.51%,"(47.47%, 53.6%)",✅ Significativo
+Ventas Base,150.27%,"(124.73%, 102.5%)",✅ Significativo
+Precio en dólares,-14.84%,"(-15.43%, -15.37%)",✅ Significativo
+Cantidad de palabras en el título,2.36%,"(1.97%, 2.71%)",✅ Significativo
+Cantidad de palabras en el título (al cuadrado),-0.37%,"(-0.48%, -0.25%)",✅ Significativo
+El título incluye medida en mililitros,10.11%,"(8.0%, 11.58%)",✅ Significativo
+Cantidad de palabras promocionales en el título,16.97%,"(12.71%, 19.38%)",✅ Significativo
+Cantidad de signos de exclamación en el título,-4.91%,"(-6.08%, -3.8%)",✅ Significativo
+Cantidad de símbolos en el título,5.71%,"(0.28%, 10.82%)",✅ Significativo
+El título incluye nombre de marca,8.03%,"(6.22%, 9.41%)",✅ Significativo
+Proporción de mayúsculas en el título,-55.63%,"(-63.83%, -60.83%)",✅ Significativo
+El producto está en oferta,34.33%,"(31.52%, 31.63%)",✅ Significativo
+El producto es nuevo,70.06%,"(54.17%, 62.91%)",✅ Significativo
+Tendencia Mensual,0.43%,"(0.13%, 0.73%)",✅ Significativo
+El vendedor es una tienda oficial,50.35%,"(47.38%, 42.78%)",✅ Significativo
